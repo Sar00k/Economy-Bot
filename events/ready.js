@@ -1,6 +1,6 @@
 module.exports = (client) => {
     console.log(`${client.user.tag} is online!`);
-  client.user.setActivity("");
+  client.user.setActivity("+help");
 };
 
-//coded By Unknown
+//coded By Dev Sarok
