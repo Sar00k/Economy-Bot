@@ -8,13 +8,13 @@ client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 client.shop = {
   laptop: {
-    cost: 5000
+    cost: 15000
   },
   mobile: {
-    cost: 1000
+    cost: 10000
   },
   pc: {
-    cost: 10000
+    cost: 20000
   }
 };
 const fs = require("fs");
@@ -41,7 +41,7 @@ fs.readdir("./commands/", (err, files) => {
     });
 });
 
-//Coded By Unknown Dev
+//Coded By Dev Sarok
 
 
-client.login("");
+client.login("MTAyNzEyOTAwMTEwMzMzOTU3MA.G0Dxkn.dZhAykZLP0NqIzblfiouoT-4nVkvKUXNr3reUA");
